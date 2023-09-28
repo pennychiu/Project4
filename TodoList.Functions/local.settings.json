@@ -1,0 +1,14 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "ServiceBusConnectionString": "Endpoint=sb://sbyinghui.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=e6TsrPIr91U9HkPBoz4TPZjpCmDt3LCu4+ASbJxy93o=",
+    "SqlServerConnectionString": "Server=tcp:sqlyinghui.database.windows.net,1433;Initial Catalog=tododb;Persist Security Info=False;User ID=yinghui;Password=@test20232023;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+    "SignalRConnectionString": "Endpoint=https://singryinghui.service.signalr.net;AccessKey=4QHegpcPMfk2HNcdH5z7T1kn79PGVz8yxyZ1X9Zm5rY=;Version=1.0;"
+  },
+  "Host": {
+    "CORS": "http://localhost:5000/",
+    "CORSCredentials": true
+  }
+}
